@@ -37,15 +37,6 @@
     background-color: rgba(255, 255, 255, 0.9);
     box-shadow: 16px 0px 52px rgba(14, 24, 80, 0.2);
 }
-/*.burger-first {*/
-/*    position: fixed;*/
-/*    left: 0;*/
-/*    top: 0;*/
-/*    width: 100%;*/
-/*    height: 100%;*/
-/*    background-color: rgba(255, 255, 255, 0.9);*/
-/*    z-index: 1;*/
-/*}*/
 
 .burger-first__container {
     display: flex;
@@ -53,26 +44,8 @@
     width: 320px;
     height: 100vh;
     box-shadow: 16px 0px 52px rgba(14, 24, 80, 0.2);
-    overflow: scroll;
+    overflow: auto;
 }
-
-/*.burger-first__container {*/
-/*    position: relative;*/
-/*    display: flex;*/
-/*    left: 0;*/
-/*    top: 0;*/
-/*    width: 100%;*/
-/*    height: 100%;*/
-/*    z-index: 2;*/
-/*    background-color: white;*/
-/*    -webkit-animation-name: magic;*/
-/*    animation-name: magic;*/
-/*    -webkit-animation-duration: 1s;*/
-/*    animation-duration: 1s;*/
-
-/*}*/
-
-
 
 .burger-first__menu-head {
     display: flex;
@@ -107,23 +80,23 @@
     align-items: flex-start;
 }
 
-.menu__list {
+.menu-list {
     display: flex;
     flex-direction: column;
     list-style-type: none;
     margin-left: 20px;
 }
 
-.menu__list__text > a,
-.menu__list__text:link > a,
-.menu__list__text:visited > a,
-.menu__list__text:focus > a,
-.menu__list__text:active > a {
+.menu-list__item > a,
+.menu-list__item:link > a,
+.menu-list__item:visited > a,
+.menu-list__item:focus > a,
+.menu-list__item:active > a {
     text-decoration: none;
     color: #1B1C21
 }
 
-.menu__list__text {
+.menu-list__item {
     text-decoration: none;
     cursor: pointer;
     margin-top: 32px;
@@ -133,14 +106,14 @@
     line-height: 24px;
 }
 
-.menu__list__text > a:hover {
+.menu-list__item > a:hover {
     /*color: #7E7E82;*/
     color: #7E7E82;
     display: flex;
     align-items: center;
 }
 
-.menu__list__text > a:hover:before {
+.menu-list__item > a:hover:before {
     position: relative;
     left: -40px;
     top: 4px;
@@ -155,20 +128,20 @@
     box-sizing: content-box;
 }
 
-.burger-first__menu__call {
+.burger-first__menu-call {
     display: flex;
     margin: auto 24px 16px 24px;
     min-height: 70px;
     align-items: flex-end;
 }
 
-.burger-first__call__button,
-.burger-first__chat__button,
-.burger-first__cont__button{
+.burger-first__call-button,
+.burger-first__chat-button,
+.burger-first__cont-button{
     margin-right: 16px;
 }
 
-.burger-first__menu__footer {
+.burger-first__menu-footer {
     display: flex;
     flex-direction: column;
     margin: 0 0 0 24px;
@@ -181,12 +154,12 @@
     font-weight: bold;
 }
 
-.burger-first__footer__language {
+.burger-first__footer-language {
     display: flex;
     margin: 0 0 32px 0;
 }
 
-.burger-first__language__button {
+.burger-first__language-button {
     display: flex;
     width: 25px;
     height: 24px;
@@ -198,85 +171,6 @@
     color: #1B1C21;
 }
 
-.burger-first__language__button:hover {
+.burger-first__language-button:hover {
     color: #7E7E82;
 }
-
-/*.burger-first__head__logo {*/
-/*    width: 96px;*/
-/*    height: 51px;*/
-/*    margin-top: 18px;*/
-/*}*/
-
-/*.burger-first__menu-head__left {*/
-/*    display: flex;*/
-/*    flex-direction: row;*/
-/*}*/
-
-/*.burger-first__head__button {*/
-/*    width: 40px;*/
-/*    height: 40px;*/
-/*    display: flex;*/
-/*    align-items: center;*/
-/*    justify-content: center;*/
-/*    border-radius: 50%;*/
-/*    border: none;*/
-/*    background-color: #FF3E79;*/
-/*    margin: 24px 16px;*/
-/*}*/
-
-/*.burger-first__menu__call {*/
-/*    position: absolute;*/
-/*    display: flex;*/
-/*    flex-direction: row;*/
-/*    left: 0;*/
-/*    top: 550px;*/
-/*}*/
-
-
-
-/*.burger-first__footer__email {*/
-/*    margin-left: 24px;*/
-/*}*/
-
-/*.burger-first__footer__phone-number {*/
-/*    margin: 12px 100px 40px 24px;*/
-/*    font-size: 24px;*/
-/*    line-height: 32px;*/
-/*    font-weight: bold;*/
-/*}*/
-
-
-
-
-
-/*.burger-first__language__button:first-child {*/
-/*    margin-left: 20px;*/
-/*}*/
-
-/*.burger-first__language__button:focus {*/
-/*    color: #7E7E82;*/
-/*}*/
-
-
-
-
-
-
-
-
-
-/*.menu__list {*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    list-style-type: none;*/
-/*    margin-left: 20px;*/
-/*}*/
-
-/*.burger-first__container {*/
-/*    width: 320px;*/
-/*    box-shadow: 16px 0px 52px rgba(14, 24, 80, 0.2); }*/
-
-/*.burger-first__menu-head {*/
-/*    width: 320px;*/
-/*}*/
